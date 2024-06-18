@@ -1,0 +1,151 @@
+*{
+  background-color:  #124abc;
+
+}
+
+header{
+  background-color: red;
+  box-sizing: border-box;
+  height: 100%;
+
+}
+
+
+
+.loguinho{
+  width: 100px;
+  margin: 20px;
+  cursor: default;
+
+}
+
+
+.itensmenu{
+  margin-top: 24px;
+}
+
+.itensmenu ul{
+  padding: 0;
+  margin: 0;
+}
+
+.itensmenu ul ul li{
+  list-style-type: none;
+  color: black;
+  display: inline-block;
+  font-size: 20px;
+  margin-left: 20px;
+}
+
+.itensmenu ul li:hover{
+  font-weight: bold;
+  font-size: 25px;
+  cursor: pointer;
+  color:black;
+  transition: 0.10s ease-in-out;
+}
+
+.escrita{
+  display: none;
+  padding: 25PX;
+  margin: 0;
+  list-style-type: none;
+  color: rgb(255, 255, 255);
+  display: inline-block;
+  font-size: 35px;
+  margin-left: 20px;
+  font-weight: bolder;
+  cursor: default;
+  margin-left: 220px;
+
+}
+
+
+
+
+  /* Responsividade */
+  @media screen and (max-width: 600px) and (min-width:128px) {
+    .ietnsmenu {
+      position: fixed;
+      right:0 ;
+      top:64px;
+      background-color:  #124abc;
+      width: 200px;
+      height: 100%;
+    }
+
+    .itensmenu li{
+      display: block;
+      text-align:left ;
+      margin: 0;
+      padding: 10px 0 10px 30px;
+      border-bottom: 2px solid rgb(0, 255, 0) ;
+    }
+  }
+
+
+
+  header {
+    background-color: #ffffff;
+    padding: 10px 0;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+
+  .imglogo img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .escrita {
+    padding: 0 10px;
+  }
+
+  .iconemenu {
+    position: relative;
+    cursor: pointer;
+  }
+
+  .iconemenu i {
+    font-size: 1.5rem;
+  }
+
+  .itensmenu {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    padding: 10px;
+    display: none;
+    z-index: 1000;
+  }
+
+  .iconemenu:hover .itensmenu {
+    display: block;
+  }
+
+  .itensmenu ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .itensmenu ul li {
+    margin-bottom: 5px;
+  }
+
+  .itensmenu ul li a {
+    text-decoration: none;
+    color: #333333;
+    transition: color 0.3s;
+  }
+
+  .itensmenu ul li a:hover {
+    color: #007bff;
+  }
+
+  .d-none {
+    display: none !important;
+  }

@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #d6e4ffc8;
+    height: 100%;
+
+}
+
+/* Estilos para o elemento main */
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Altura total da viewport */
+    background-color: #f0f8ff; /* Azul claro para o fundo */
+  }
+  
+  /* Estilo para a seção anterior */
+  .anterior {
+    width: 50%; /* Largura 50% da seção anterior */
+    height: 100%; /* Altura igual à do elemento pai (main) */
+    background-color: #007bff; /* Azul para o fundo da seção anterior */
+  }
+  
+  /* Estilo para a seção caixa */
+  .caixa {
+    width: 50%; /* Largura 50% da seção caixa */
+    height: 100%; /* Altura igual à do elemento pai (main) */
+    background-color: #fff; /* Fundo branco para a seção caixa */
+    padding: 20px; /* Espaçamento interno */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Estilo para o conteúdo dentro da seção caixa */
+  .caixa p {
+    font-size: 1.2rem;
+    color: #333; /* Cor do texto */
+    text-align: center;
+    margin-top: 20px; /* Espaçamento superior */
+  }
+  
+
+  
+  
